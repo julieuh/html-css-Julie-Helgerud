@@ -1,0 +1,77 @@
+body {
+    background: #F5F5F5;
+}
+
+.banner {
+    background-color: #DBC6C2;
+    color: #383838;
+}
+
+header a {
+    color: #284646;
+}
+
+.category-links {
+    color: #284646;
+}
+.contactus-button {
+    background-color: #294F58;
+    color: #fff;
+}
+
+
+/* Fargeprikker */
+.color-options {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.color-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Fargeklasser */
+.gray {
+  background-color: #888;
+}
+
+.red {
+  background-color: #FB1B1B;
+}
+
+.blue {
+  background-color: #172B85;
+}
+
+.darkblue {
+  background-color: #2D3D57;
+}
+
+.yellow {
+  background-color: #E6FB45;
+}
+
+.orange {
+  background-color: #F2883C;
+}   
+
+.black {
+  background-color: #000;
+}
+
+.olive {
+  background-color: #556b2f;
+}
+
+
+
+
+
+footer {
+    background-color: #94A4A3;
+    color: #051805;
+}
