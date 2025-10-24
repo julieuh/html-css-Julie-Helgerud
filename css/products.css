@@ -1,0 +1,67 @@
+/*Bruk class="inria-serif" og .inria-serif CSS for å aktivere fonten med klasse*/
+.inria-serif {
+    font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+.product-brand h2 {
+  font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+/* Fargeprikker */
+.color-options {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.color-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Fargeklasser */
+.gray {
+  background-color: #888;
+}
+
+.red {
+  background-color: #FB1B1B;
+}
+
+.blue {
+  background-color: #172B85;
+}
+
+.darkblue {
+  background-color: #2D3D57;
+}
+
+.yellow {
+  background-color: #E6FB45;
+}
+
+.orange {
+  background-color: #F2883C;
+}   
+
+.black {
+  background-color: #000;
+}
+
+.olive {
+  background-color: #556b2f;
+}
+
+/* Salg */
+.before-price {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.sale-price {
+  color: red;
+}
