@@ -1,1 +1,11 @@
 /*Legge til fonts på denne siden*/
+
+.product-img {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.dot-selected {
+  width: 25px;
+  height: 25px;
+}

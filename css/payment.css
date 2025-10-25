@@ -1,1 +1,23 @@
 /*Legge til fonts på denne siden*/
+
+main {
+    color: #284646;
+}
+
+form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1rem;
+    grid-template-columns: 2fr 2fr;
+}
+
+.buy-now-button {
+    padding: 10px 100px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}

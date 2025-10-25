@@ -1,1 +1,15 @@
 /*Legge til fonts på denne siden*/
+
+main h1 {
+    color: #508B78;
+    font-size: 3rem;
+}
+
+main h2, h3 {
+    font-size: 1.3rem;
+    color: #0A3641;
+}
+
+main p {
+    font-size: 1rem;
+}

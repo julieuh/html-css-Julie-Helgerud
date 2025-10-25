@@ -71,7 +71,12 @@
 }
 
 .olive {
-  background-color: #556b2f;
+  background-color: #665A3E;
+}
+
+.dot-selected {
+  width: 25px;
+  height: 25px;
 }
 
 /* Salg */
