@@ -41,6 +41,16 @@ img {
     height: auto;
 }
 
+.logo{
+    max-width: 10%;
+}
+
+.category-img {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  max-width: 90%;
+}
+
 
 /* Button styles*/
 .cta-button {
@@ -73,14 +83,15 @@ footer {
 }
 
 .slogan-area h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     padding-top: 10rem;
     padding-left: 2rem;
     color: #d9e2e2;
+    font-weight: lighter;
 }
 
 .slogan-area p {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     padding-left: 2rem;
     color: #fff;
 }
