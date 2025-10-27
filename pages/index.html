@@ -25,18 +25,106 @@
         <li>Free shipping on orders over $99</li>
       </div>
       <nav class="category-links">
-        <a href="index.html"
-          ><img
+        <a href="index.html">
+          <img
             src="../images/RainyDays_Logo.png"
             alt="RainyDays_Logo"
             class="logo"
-        /></a>
-        <ul>
+          />
+        </a>
+
+        <ul class="menu">
           <li><a href="products.html">Women</a></li>
           <li><a href="products.html">Men</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="products.html">Sale</a></li>
         </ul>
+
+        <div class="nav-actions">
+          <form
+            class="search"
+            action="products.html"
+            method="get"
+            role="search"
+          >
+            <label for="q" class="sr-only">Search products</label>
+            <input type="search" id="q" name="q" placeholder="Search" />
+            <button type="submit" aria-label="Search">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <line
+                  x1="16.65"
+                  y1="16.65"
+                  x2="21"
+                  y2="21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </form>
+
+          <a href="cart.html" class="icon-btn cart" aria-label="Cart">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M6 6h15l-1.5 8.5H8L6 6Z"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+              <circle cx="9" cy="19" r="1.5" fill="currentColor" />
+              <circle cx="18" cy="19" r="1.5" fill="currentColor" />
+            </svg>
+            <span class="badge" aria-label="Items in cart">0</span>
+          </a>
+
+          <!-- TODO: Opprett profil.html -->
+          <a href="profile.html" class="icon-btn profile" aria-label="Profile">
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <circle
+                cx="12"
+                cy="8"
+                r="3.5"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <path
+                d="M4 20c1.5-4 6-6 8-6s6.5 2 8 6"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </a>
+        </div>
       </nav>
     </header>
     <main>
