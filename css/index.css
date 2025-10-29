@@ -60,7 +60,8 @@ header nav.category-links {
 
 .category-links li {
   color: #284646;
-  font-size: 1.3rem;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .logo {
@@ -243,6 +244,10 @@ footer h3 {
   .search input[type='search'] {
     min-width: 0;
     width: 100%;
+  }
+
+  main {
+    flex-wrap: nowrap;
   }
 }
 

@@ -6,10 +6,21 @@ main {
 form {
     background-color: #fff;
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
+    flex-direction: row;
+    max-width: 1000px;
     gap: 1rem;
-    grid-template-columns: 2fr 2fr;
+}
+
+.form-wrapper {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .buy-now-button {

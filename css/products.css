@@ -1,18 +1,30 @@
 /*Bruk class="inria-serif" og .inria-serif CSS for å aktivere fonten med klasse*/
+main {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: 500;
+}
 
 .inria-serif {
     font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
-.green-text {
+.product-list-area {
   color: #284646;
+  min-width: 20%;
 }
 
 .product-list {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  max-width: 90%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
+
+
 
 .product-list h3,
 .product-list p {
@@ -25,6 +37,10 @@
   margin: 0.5rem 0;
   color: #000;
 }
+
+.products {
+  grid-column: span 1;
+} /*Vet ikke helt hva jeg skal gjøre her*/
 
 /* Fargeprikker */
 .color-options {
