@@ -8,6 +8,27 @@ main {
   gap: 70px;
 }
 
+main h2 {
+  font-size: 1.8em;
+  font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+main h3, h4 {
+  color: #38525A;
+}
+
+.bread-crums {
+  font-size: 0.7rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #38525A;
+}
+
+.price-styling {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;}
+
 .product-img {
   width: 100%;
   margin-bottom: 1rem;
