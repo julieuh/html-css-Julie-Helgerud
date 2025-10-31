@@ -30,7 +30,7 @@
           class="logo"
       /></a>
     </header>
-    <main>
+    <main class="payment-form">
       <h1>Delivery Details</h1>
       <form action="#" method="post">
         <div class="form-wrapper">
@@ -66,8 +66,6 @@
             name="phonenumber"
             placeholder="Phone number"
           />
-        </section>
-        <section>
           <div>
             <h2>Payment Details</h2>
           </div>
@@ -118,42 +116,36 @@
           </div>
         </section>
         <section>
-          <div>
-            <h2>Order Summary</h2>
-          </div>
-          <div>
-            <p>Subtotal</p>
-            <p>89.99$</p>
-          </div>
-          <div>
-            <p>Delivery Cost</p>
-            <p>6.49$</p>
-          </div>
-          <div>
-            <p>Total</p>
-            <p>96.48$</p>
-          </div>
-          <div>
-            <a href="product-page.html"
+          <h2>Order Summary</h2>
+            <div>
+              <div class="summary">
+                <p>Subtotal</p>
+                <p>89.99$</p>
+              </div>
+              <div class="summary">
+                <p>Delivery Cost</p>
+                <p>6.49$</p>
+              </div>
+              <div class="summary">
+                <p>Total</p>
+                <p>96.48$</p>
+              </div>
+            </div>
+            <section class="summary-wrapper">
+              <div>
+            <a href="product-page.html" class="summary-img"
               ><img src="../images/jacket_green.jpg" alt="Patagonia Jacket"
             /></a>
           </div>
           <div>
-            <p class="inria-serif">Patagonia</p>
-            <p>Better Sweater Fleece Jacket</p>
-            <div>
-              <p>Color</p>
-              <p>Size</p>
-              <p>Articles</p>
-              <p>Price</p>
-            </div>
-            <div>
-              <p>Forest Green</p>
-              <p>M</p>
-              <p>1</p>
-              <p>89.99$</p>
-            </div>
+            <p class="inria-serif small-summary">Patagonia</p>
+            <p class="small-summary"><strong>Better Sweater Fleece Jacket</strong></p>
+              <p>Color: Forest Green</p>
+              <p>Size: M</p>
+              <p>Articles: 1</p>
+              <p>Price: 89.99$</p>
           </div>
+            </section>
         </div>
         </section>
       </form>
