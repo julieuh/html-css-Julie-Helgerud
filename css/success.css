@@ -1,4 +1,12 @@
 
+
+main {
+    max-width: 1000px;
+    width: 480px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 main h1 {
     color: #508B78;
     font-size: 3rem;
@@ -11,4 +19,8 @@ main h2, h3 {
 
 main p {
     font-size: 1rem;
+}
+
+.logo {
+    padding: 20px;
 }
