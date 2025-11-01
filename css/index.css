@@ -220,6 +220,19 @@ footer {
   color: #051805;
 }
 
+footer section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: fit-content;
+}
+
+footer section ul {
+  list-style: none;
+  padding: 0px 20px 20px 20px;
+  margin: 0;
+}
+
+
 footer h3 {
   font-size: 1.2em;
   text-transform: uppercase;

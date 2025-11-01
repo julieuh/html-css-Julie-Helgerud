@@ -130,13 +130,14 @@ nav ul {
 }
 
 @media (max-width: 643px) {
-  main {
-    flex-direction: column;
-    padding: 1rem;
+  .product-list-area {
+    font-size: 0.8em;
   }
 
   .product-list {
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
+    padding: 0px;
+    font-size: 0.7em;
   }
 
   .product-list-area {
