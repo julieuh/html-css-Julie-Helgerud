@@ -412,15 +412,14 @@ footer h3 {
   }
 }
 
-@media (max-width: 400px) {
-  
-  .category-img {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0px;
+@media (max-width: 388px) {
+  .category-pictures {
+    max-width: 130px;
   }
 
-  .category-pictures {
-    max-width: 150px;
-    height: auto;
+  .slogan-area {
+    min-height: 50vh;
+    background-position: top right;
   }
 }
+
