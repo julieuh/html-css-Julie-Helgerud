@@ -536,7 +536,6 @@ footer .footer-social-icons {
   display: block;
   padding: 12px;
   border-radius: 12px;
-  background-color: #fff;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
