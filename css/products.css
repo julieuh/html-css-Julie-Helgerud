@@ -36,10 +36,6 @@ nav ul {
   color: #000;
 }
 
-.products {
-  grid-column: span 1;
-} /*Vet ikke helt hva jeg skal gjøre her*/
-
 .product-list .products a {
   display: block;
   background: #fff;
