@@ -246,10 +246,10 @@ footer .footer-social-icons {
 .payment-logos {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .payment-logos img {
-  height: 28px;
+  height: 21px;
   width: auto;
   object-fit: contain;
   filter: grayscale(0%);
@@ -344,6 +344,7 @@ footer .footer-social-icons {
     flex-wrap: wrap;
     gap: 0.5rem 1rem;
     padding: 50px 30px 20px 30px;
+    background-color: #dbc6c2;
   }
 
   header nav.category-links > a {
@@ -367,6 +368,7 @@ footer .footer-social-icons {
   .banner {
     display: none;
   }
+
   header {
     background-color: #dbc6c2;
   }
