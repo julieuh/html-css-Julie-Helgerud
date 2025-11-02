@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Page for items that are in the customers cart"
+      content="Patagonia Better Sweater Fleece Jacket for cold weather"
     />
-    <title>Rainydays | Cart</title>
+    <title>Rainydays | Product page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/product-page.css" />
   </head>
   <body>
     <header>
@@ -28,16 +29,29 @@
         <li>30-day return policy</li>
         <li>Free shipping on orders over $99</li>
       </div>
+
       <nav class="category-links">
         <a href="index.html">
           <img
-            src="../images/RainyDays_Logo.png"
+            src="images/RainyDays_Logo.png"
             alt="RainyDays_Logo"
             class="logo"
           />
         </a>
 
-        <ul class="menu">
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-label="Open main menu"
+        />
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="menu" id="site-menu">
           <li><a href="products.html">Women</a></li>
           <li><a href="products.html">Men</a></li>
           <li><a href="products.html">Products</a></li>
@@ -103,7 +117,6 @@
             <span class="badge" aria-label="Items in cart">0</span>
           </a>
 
-          <!-- TODO: Opprett profil.html -->
           <a href="profile.html" class="icon-btn profile" aria-label="Profile">
             <svg
               width="22"
@@ -131,40 +144,61 @@
         </div>
       </nav>
     </header>
+
     <main>
-      <section>
-        <h1><strong>My cart</strong></h1>
-        <div>
-          <img src="../images/jacket_green.jpg" alt="Patagonia Jacket" />
+      <section class="product-img">
+        <div class="bread-crums">
+          <p>Home > All products ></p>
+          <p>Patagonia Better Sweater Fleece Jacket</p>
         </div>
+        <img
+          src="images/jacket_green.jpg"
+          alt="Green Patagonia Jacket"
+          loading="lazy"
+        />
+      </section>
+
+      <section class="product-info">
         <div>
           <h2>Patagonia</h2>
-          <p>Better Sweater Fleece Jacket</p>
-          <p>Forest Green</p>
-          <p>Size M</p>
-          <p>89.99$</p>
-          <!-- Icon for how many items -->
+          <h3>Better Sweater Fleece Jacket</h3>
+          <p class="price-styling">89.99 $</p>
+
+          <div class="color-options">
+            <span class="color-dot gray" title="Gray"></span>
+            <span class="color-dot black" title="Black"></span>
+            <span
+              class="color-dot olive dot-selected"
+              title="Olive Green"
+            ></span>
+          </div>
+
+          <div class="product-actions">
+            <a href="cart.html" class="cta-button add-to-cart-button"
+              >Add to cart</a
+            >
+          </div>
         </div>
-      </section>
-      <section>
-        <h1><strong>Summary</strong></h1>
+
         <div>
-          <p>Subtotal</p>
-          <p>89.99$</p>
+          <h4 class="all-caps">About the product</h4>
+          <p>
+            Patagonia men's Better Sweater® Fleece Jacket is a warm,
+            easy-wearing, bulk-free jacket made of a knitted, heathered
+            polyester fleece. The jacket is suitable for a large range of sports
+            and activities, including everyday use.
+          </p>
+          <ul>
+            <li>Full length zipper</li>
+            <li>Flat seams</li>
+            <li>Two pockets</li>
+            <li>Durable fabric quality</li>
+          </ul>
+          <p><strong>Material</strong>: 100% recycled polyester</p>
         </div>
-        <div>
-          <p>Delivery Cost</p>
-          <p>6.49$</p>
-        </div>
-        <div>
-          <p>Total</p>
-          <p>96.48$</p>
-        </div>
-        <a href="payment.html" class="cta-button checkout-button"
-          >Continue to checkout</a
-        >
       </section>
     </main>
+
     <footer>
       <section>
         <div>
