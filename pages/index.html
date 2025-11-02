@@ -17,13 +17,14 @@
     />
     <link rel="stylesheet" href="../css/index.css" />
   </head>
-  <body>
+  <body class="home">
     <header>
       <div class="banner">
         <li>Delivery (domestic) 2-4 business days</li>
         <li>30-day return policy</li>
         <li>Free shipping on orders over $99</li>
       </div>
+
       <nav class="category-links">
         <a href="index.html">
           <img
@@ -33,7 +34,19 @@
           />
         </a>
 
-        <ul class="menu">
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-label="Open main menu"
+        />
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="menu" id="site-menu">
           <li><a href="products.html">Women</a></li>
           <li><a href="products.html">Men</a></li>
           <li><a href="products.html">Products</a></li>
@@ -99,7 +112,6 @@
             <span class="badge" aria-label="Items in cart">0</span>
           </a>
 
-          <!-- TODO: Opprett profil.html -->
           <a href="profile.html" class="icon-btn profile" aria-label="Profile">
             <svg
               width="22"
@@ -127,54 +139,61 @@
         </div>
       </nav>
     </header>
+
     <main>
       <section class="slogan-area">
         <h1>Quality clothing for your next adventure</h1>
         <p>- Pushing the comfort zone</p>
       </section>
+
       <section class="category-img">
         <div>
-          <a href="products.html" class="category-links"
-            ><img
+          <a href="products.html" class="category-link">
+            <img
               src="../images/man_river.jpg"
               alt="Man in a yellow and black rain jacket sitting by the river"
               class="category-pictures"
+              loading="lazy"
             />
-            <h2>All Products</h2></a
-          >
+            <h2>All Products</h2>
+          </a>
         </div>
         <div>
-          <a href="products.html" class="category-links"
-            ><img
+          <a href="products.html" class="category-link">
+            <img
               src="../images/women_mountain.jpg"
-              alt="woman in a green jacket walking in the snowcapped mountains"
+              alt="Woman in a green jacket walking in the snowcapped mountains"
               class="category-pictures"
+              loading="lazy"
             />
-            <h2>Women</h2></a
-          >
+            <h2>Women</h2>
+          </a>
         </div>
         <div>
-          <a href="products.html" class="category-links"
-            ><img
+          <a href="products.html" class="category-link">
+            <img
               src="../images/man_lake.jpg"
-              alt="man in a blue jacket standing by a lake with"
+              alt="Man in a blue jacket standing by a lake"
               class="category-pictures"
+              loading="lazy"
             />
-            <h2>Men</h2></a
-          >
+            <h2>Men</h2>
+          </a>
         </div>
         <div>
-          <a href="products.html" class="category-links"
-            ><img
+          <a href="products.html" class="category-link">
+            <img
               src="../images/bikes_woman.jpg"
-              alt="woman cycling in the rain wearing a black cycling jacket"
+              alt="Woman cycling in the rain wearing a black cycling jacket"
               class="category-pictures"
+              loading="lazy"
             />
-            <h2>Sports Jackets</h2></a
-          >
+            <h2>Sports Jackets</h2>
+          </a>
         </div>
       </section>
     </main>
+
     <footer>
       <section>
         <div>
@@ -195,15 +214,24 @@
               >Contact us</a
             >
           </div>
-          <div>
-            <img src="" alt="Klarna Logo" />
-            <img src="" alt="Visa Logo" />
-            <img src="" alt="Mastercard Logo" />
+          <div class="payment-logos">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Klarna_Logo_black.svg"
+              alt="Klarna logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png"
+              alt="Visa logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png"
+              alt="Mastercard logo"
+            />
           </div>
         </div>
         <div>
           <h3>Follow us</h3>
-          <ul>
+          <ul class="footer-social-icons">
             <li>Facebook</li>
             <li>Instagram</li>
           </ul>

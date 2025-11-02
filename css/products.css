@@ -10,7 +10,7 @@ nav ul {
 }
 
 .inria-serif {
-    font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Inria Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 .product-list-area {
@@ -23,8 +23,6 @@ nav ul {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
-
 
 .product-list h3,
 .product-list p {
@@ -42,13 +40,38 @@ nav ul {
   grid-column: span 1;
 } /*Vet ikke helt hva jeg skal gjøre her*/
 
+.product-list .products a {
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.product-list .products img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.product-list .products h2,
+.product-list .products h3,
+.product-list .products p,
+.product-list .products .color-options {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 /* Fargeprikker */
 .color-options {
   display: flex;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
-
 
 .color-dot {
   width: 20px;
@@ -63,31 +86,31 @@ nav ul {
 }
 
 .red {
-  background-color: #FB1B1B;
+  background-color: #fb1b1b;
 }
 
 .blue {
-  background-color: #172B85;
+  background-color: #172b85;
 }
 
 .darkblue {
-  background-color: #2D3D57;
+  background-color: #2d3d57;
 }
 
 .yellow {
-  background-color: #E6FB45;
+  background-color: #e6fb45;
 }
 
 .orange {
-  background-color: #F2883C;
-}   
+  background-color: #f2883c;
+}
 
 .black {
   background-color: #000;
 }
 
 .olive {
-  background-color: #665A3E;
+  background-color: #665a3e;
 }
 
 .dot-selected {
@@ -104,9 +127,6 @@ nav ul {
 .sale-price {
   color: red;
 }
-
-
-/* Media */
 
 @media (max-width: 1173px) {
   .product-list {
@@ -144,4 +164,3 @@ nav ul {
     min-width: 100%;
   }
 }
-
